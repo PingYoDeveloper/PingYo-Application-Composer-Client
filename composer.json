@@ -1,0 +1,29 @@
+﻿{
+	"name": "PingYo Application Composer Client",
+	"type": "library",
+	"description": "Provides Client Tools for integrating with a wide range of USA and UK Ping Tree systems including PingYo!, Lead Perfect, Secure Affiliate, and others",
+	"keywords": ["pingyo", "PingTree", "Affiliate"],
+	"homepage": "https://github.com/pingyo/pingyo",
+	"license" : "BSD",
+	"authors" : [
+		{
+			"name": "PingYo Developer",
+			"email": "developer@pingyo.com",
+			"homepage": "https://github.com/PingYoDeveloper"
+		}],
+	"require": {
+		"php": ">=5.3.2",
+		"vlucas/valitron": "1.2.2",
+        	"giggsey/libphonenumber-for-php": "~6.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "@stable",
+		"monolog/monolog": "1.10.0"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"PingYo\\": "src/"
+		}
+	}
+}
